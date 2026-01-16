@@ -44,10 +44,10 @@ Dự án nhằm phục vụ mục đích học tập, đồng thời thể hiệ
 ## 📂 Cấu trúc thư mục
 
 Project/
-├── config/        # Cấu hình ứng dụng và kết nối cơ sở dữ liệu
-├── public/        # Tài nguyên public (CSS, JS, hình ảnh)
-├── src/           # Controller, Model, Core logic
-├── templates/     # Giao diện người dùng (View)
-├── vendor/        # Thư viện Composer (không upload GitHub)
-├── composer.json
-└── index.php
+- config/        # Cấu hình ứng dụng và kết nối cơ sở dữ liệu
+- public/        # Tài nguyên public (CSS, JS, hình ảnh)
+- src/           # Controller, Model, Core logic
+- templates/     # Giao diện người dùng (View)
+- vendor/        # Thư viện Composer (không upload GitHub)
+- composer.json
+- index.php
