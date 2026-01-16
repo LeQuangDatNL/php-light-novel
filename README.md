@@ -1,32 +1,53 @@
 # Website Đọc Light Novel (PHP)
 
-Website đọc Light Novel được xây dựng bằng PHP theo mô hình MVC, phục vụ mục đích học tập và làm đồ án môn học.
+Website đọc Light Novel được xây dựng bằng PHP theo mô hình MVC.  
+Dự án nhằm phục vụ mục đích học tập, đồng thời thể hiện khả năng xây dựng ứng dụng web backend với PHP và MySQL.
 
-## Mục tiêu dự án
-- Xây dựng website đọc truyện Light Novel
+---
+
+## 🎯 Mục tiêu dự án
+- Xây dựng website đọc truyện Light Novel hoàn chỉnh
 - Áp dụng mô hình MVC trong PHP
-- Rèn luyện kỹ năng làm web backend với PHP và MySQL
+- Rèn luyện kỹ năng lập trình backend với PHP và MySQL
 - Quản lý truyện, chương và người dùng
 
-## Chức năng chính
-### Người dùng
+---
+
+## ✨ Chức năng chính
+
+### 👤 Người dùng
 - Đăng ký / Đăng nhập
 - Xem danh sách truyện
 - Xem chi tiết truyện
-- Tìm kiếm theo tên/loại/sao
+- Tìm kiếm truyện theo tên / thể loại / số sao
 - Đọc chương truyện
-- Đánh giá sao (1->5)
+- Đánh giá sao (từ 1 đến 5)
 - Chức năng chọn truyện ngẫu nhiên
-### Quản trị (Admin)
+
+### 🛠️ Quản trị (Admin)
 - Thêm / sửa / xóa truyện
 - Thêm / sửa / xóa chương
-- Thêm / sủa / xóa loại chương truyện
+- Thêm / sửa / xóa thể loại truyện
 - Quản lý nội dung truyện
 
-## Công nghệ sử dụng
+---
+
+## 🧰 Công nghệ sử dụng
 - PHP 8
-- Composer
+- Composer (autoload & dependency management)
 - Mô hình MVC
 - MySQL
 - HTML, CSS, JavaScript
 - Bootstrap
+
+
+## 📂 Cấu trúc thư mục
+
+Project/
+├── config/        # Cấu hình ứng dụng và kết nối cơ sở dữ liệu
+├── public/        # Tài nguyên public (CSS, JS, hình ảnh)
+├── src/           # Controller, Model, Core logic
+├── templates/     # Giao diện người dùng (View)
+├── vendor/        # Thư viện Composer (không upload GitHub)
+├── composer.json
+└── index.php
